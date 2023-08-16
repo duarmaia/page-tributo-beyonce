@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Alkatra' rel='stylesheet'>
+
+    <style type="text/css">
+        * {
+            font-family: 'Alkatra';
+            font-size: 18px;
+            box-sizing: border-box;
+        }
+
+        .div-page {
+            width: 80%;
+            background-color: #000000;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+        }
+
+        .footer {
+            text-align: center;
+        }
+
+        section {
+            text-align: justify;
+            border: 1px #ff007f solid;
+            margin-bottom: 20px;
+
+
+        }
+
+        strong {
+            font-family: 'Alkatra';
+            font-size: 25px;
+            color: #ff007f;
+            text-indent: 2em;
+            padding-left: 60px;
+        }
+
+        p {
+            padding-left: 40px;
+            text-indent: 2em;
+
+        }
+
+        body {
+            background-color: #000000;
+            color: #d5d5d5;
+        }
+
+        .div-turne {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .div-turne>div {
+            background-color: #7c7676;
+            border: 1px #ff007f solid;
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+
+        }
+
+        .album {
+            display: flex;
+
+        }
+
+        .album-img {
+            background-color: #7c7676;
+            border: 1px #ff007f solid;
+            width: 200px;
+            height: 200px;
+            border-radius: 2%;
+            background-position: center;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 2%;
+            font-family: 'Alkatra';
+            font-size: 25px;
+            color: #ff007f;
+
+        }
+
+        .album p {
+            padding: 0;
+            text-indent: 0;
+        }
+
+        .album-info {
+            flex-grow: 1;
+
+        }
+
+        .album-info>p {
+            margin: 0;
+        }
+
+        .album-info>hr+p {
+            margin-top: 10px;
+        }
+
+        .hr {
+            width: 80%;
+            margin: 0;
+            border-color: #ff007f;
+        }
+
+        .div-albuns {
+            margin-bottom: 50px;
+        }
+    </style>
+
+
+
+    <title>Página de Tributo</title>
+</head>
+
+<body>
+    <div class="div-page">
+        <header class="header">
+            <img src="imagens/header-bey.png"
+                alt="topo da pagina escrito nome completo da Beyonce ao lado foto da cantora">
+        </header>
+        <main>
+            <section><strong>Biografia:</strong>
+                <p>Beyoncé nasceu no dia 4 de setembro de 1981, em Houston, nos Estados Unidos, e é um dos maiores nomes
+                    da música pop de todos os tempos. A artista canta desde a infância, mas tornou-se conhecida em 1997
+                    como uma das vocalistas do R&B Destiny's Child – grupo feminino de R&B que já vendeu mais de 50
+                    milhões de discos.</p>
+                <p>Após o início da banda, não demorou muito para a cantora alcançar destaque no cenário musical. Em
+                    2003, lançou seu primeiro álbum solo, intitulado Dangerously In Love. Os singles “Crazy In Love” e
+                    “Baby Boy” atingiram o primeiro lugar da Billboard Hot 100.</p>
+                <p>Vencedora de diversos prêmios pelo grande sucesso, Beyoncé deu continuidade aos seus trabalhos solos
+                    em 2006 – quando divulgou seu segundo álbum de estúdio, nomeado B'Day. O material estreou no topo da
+                    Billboard 200 e revelou o hit “Irreplaceable”.</p>
+                <p>E ninguém poderia se esquecer da faixa “Single Ladies” – parte do terceiro disco da artista, chamado
+                    I Am... Sasha Fierce, de 2008 – e que ganhou um super clipe. Outros grandes sucessos do trabalho
+                    foram os singles “If I Were A Boy” e “Halo”.</p>
+                <p>No Grammy Awards de 2010, a norte-americana tornou-se a figura feminina mais premiada em apenas uma
+                    edição – venceu seis das dez categorias indicadas. No ano seguinte, foi a vez de a estrela pop
+                    estrear seu quarto disco, chamado 4. O número representa a data de seu nascimento, aniversário de
+                    sua mãe e dia de seu casamento com o rapper Jay-Z. “Run The World” foi destaque no álbum.</p>
+                <p>Já em 2013, Queen Bey, como também é chamada, lançou, sem que ninguém esperasse, o quinto disco da
+                    carreira, autointitulado. Este foi considerado um projeto de muitos hits, entre eles “XO”, “Drunk In
+                    Love” e “Pretty Hurts”.</p>
+                <p>Em fevereiro de 2016, a cantora decidiu surpreender os fãs mais uma vez e liberar um novo single
+                    mantido em sigilo até então. Trata-se de “Formation”, com uma forte mensagem contra o racismo nos
+                    Estados Unidos. A faixa promove o sexto álbum de estúdio da artista.</p>
+                <!--<p>Falta de 2016 em diante</p>-->
+
+            </section>
+            <section><strong>Turnês feitas até o momento:</strong>
+                <p>Desde o início da carreira solo em 1999, Beyoncé já esteve nos palcos em cinco turnês solos, além de
+                    três feitas em conjunto, sendo duas com seu marido, o rapper Jay-Z. A última iniciou em 2016, logo
+                    após o lançamento do “Lemonade”.</p>
+
+                <p>Desde então, a cantora esteve poucas vezes no palco, incluindo uma apresentação especial em Dubai.
+                    Agora, ela voltará mais uma leva de shows em sua nova turnê: Renaissance World Tour</p>
+
+
+                <div class="div-turne">
+                    <div class="album-img" style="background-image: url(imagens/tour-dangerosly.jpg);">
+                        Dangerously in Love Tour (2003)</div>
+                    <div class="album-img" style="background-image: url(imagens/tour-experience.jpg);">
+                        The Beyoncé Experience Tour (2007)</div>
+                    <div class="album-img" style="background-image: url(imagens/tour-iam.jpg);">
+                        I Am … World Tour (2009)</div>
+                    <div class="album-img" style="background-image: url(imagens/tour-mrscarter.jpg);">
+                        Mrs. Carter Show World Tour (2013)</div>
+                    <div class="album-img" style="background-image: url(imagens/tour-formation1.jpg);">
+                        Formation World Tour (2016)</div>
+                    <div class="album-img" style="background-image: url(imagens/tour-renaissance.jpg);">
+                        Renaissance World Tour</div>
+                    <div class="album-img" style="background-image: url(imagens/tour-ontherun.webp);">
+                        Bônus:On The Run</div>
+                </div>
+
+
+            </section>
+            <section><strong>Discografia e seus melhores hits:</strong>
+                <p>Com uma capacidade de reinvenção e repaginação assustadoras, a cantora e compositora iniciou sua
+                    carreira como membro do grupo ‘Destiny’s Child’, lançando-se como performer solo a partir de
+                    ‘Dangerously in Love’, em 2001, e investindo cada vez mais esforços em sua identidade apaixonante.
+                    Não é surpresa que ela já tenha lançado dois dos grandes álbuns do século, ‘BEYONCÉ’ e ‘Lemonade’, e
+                    agora esteja de volta com o impecável ‘Renaissance – Act I’, primeira parte de uma trilogia sonora.
+                </p>
+
+                <p>Para comemorar a tão aguardada estreia de seu mais recente álbum, resolvemos montar uma lista com
+                    todos os albuns da nossa Queen B:</p>
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-renaissance.png);"></div>
+                        <div class="album-info">
+                            <p> Renaissance- Act I</p>
+                            <p>Lançamento:2022</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>Alien Superstar</li>
+                                <li>Cuff It</li>
+                                <li>Break my Soul</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-homecoming.jpg);"></div>
+                        <div class="album-info">
+                            <p>Homecoming: The Live Album</p>
+                            <p>Lançamento:2019</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>Freedom</li>
+                                <li>I Been On (Bonus)</li>
+                                <li>Welcome</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-lemonade.webp);"></div>
+                        <div class="album-info">
+                            <p>Lemonade (2016)</p>
+                            <p>Lançamento:2016</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>Hold Up</li>
+                                <li>Formation</li>
+                                <li>Forward</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-beyplatinum.png);;"></div>
+                        <div class="album-info">
+                            <p>Beyoncé [Platinum Edition]</p>
+                            <p>Lançamento:2014</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>**Flawless (Feat. Nicki Minaj)</li>
+                                <li>Blow Remix (feat. Pharrell Williams)</li>
+                                <li>Ring Off</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-beyonce.webp);;"></div>
+                        <div class="album-info">
+                            <p>Beyoncé</p>
+                            <p>Lançamento:2013</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>Pretty Hurts</li>
+                                <li>Drunk in Love (feat.Jay Z)</li>
+                                <li>Yoncé</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-4remix.webp);;"></div>
+                        <div class="album-info">
+                            <p>4: The Remix</p>
+                            <p>Lançamento:2012</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>Run The World (Girls) (Dave Audé Club Remix)</li>
+                                <li>Countdown (Isa Machine Remix)</li>
+                                <li>Love On Top (Dj Escape & Tony Coluccio Remix)</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-4.webp);;"></div>
+                        <div class="album-info">
+                            <p>4</p>
+                            <p>Lançamento:2011</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>1+1</li>
+                                <li>Best Thing I Never Had</li>
+                                <li>Countdown</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-heat.webp);;"></div>
+                        <div class="album-info">
+                            <p>Heat-EP</p>
+                            <p>Lançamento:2011</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>Fever</li>
+                                <li>At Last (Karmatronic Remix)</li>
+                                <li>Broken-hearted Girl (Catalyst Remix)</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-iamtour.webp);;"></div>
+                        <div class="album-info">
+                            <p>Beyonce: I Am... World Tour (DVD/CD)</p>
+                            <p>Lançamento:2010</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>Naughty Girl</li>
+                                <li>Diva</li>
+                                <li>Baby Boy</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-iamyours.webp);;"></div>
+                        <div class="album-info">
+                            <p>I Am... Yours: An Intimate Performance at Wynn Las Vegas (CD/DVD)</p>
+                            <p>Lançamento:2009</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>Halo</li>
+                                <li>Diva</li>
+                                <li>Déjà Vu</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-videophone.webp);;"></div>
+                        <div class="album-info">
+                            <p>Video Phone - EP</p>
+                            <p>Lançamento:2009</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>Video Phone</li>
+                                <li>Video Phone (Feat. Lady GaGa)</li>
+                                <li>Poison</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-abovebey.webp);;"></div>
+                        <div class="album-info">
+                            <p>Above and Beyoncé: Video Collection & Dance Mixes</p>
+                            <p>Lançamento:2009</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>Sweet Dreams (Harlan Pepper & AG III Remix)</li>
+                                <li>Single Ladies (Put a Ring on It)</li>
+                                <li>Broken-hearted Girl</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-iamsashapla.webp);;"></div>
+                        <div class="album-info">
+                            <p>I Am...Sasha Fierce (Platinum Edition)</p>
+                            <p>Lançamento:2009</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>Smash Into You</li>
+                                <li>Scared Of Lonely</li>
+                                <li>Radio</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-iamsasha.webp);;"></div>
+                        <div class="album-info">
+                            <p>I Am...Sasha Fierce</p>
+                            <p>Lançamento:2008</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>If I Were A Boy</li>
+                                <li>Disappear</li>
+                                <li>Satellites</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-irreemplazable.webp);;"></div>
+                        <div class="album-info">
+                            <p>Irreemplazable</p>
+                            <p>Lançamento:2007</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>Amor Gitano (Alejandro Fernández feat. Beyoncé)</li>
+                                <li>Beautiful Liar (Remix (With Shakira))</li>
+                                <li>Irreemplazable</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-bdaydeluxe.webp);;"></div>
+                        <div class="album-info">
+                            <p>B'day [Deluxe Edition]</p>
+                            <p>Lançamento:2007</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>Beautiful Liar</li>
+                                <li>If</li>
+                                <li>Freakum Dress</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-bday.webp);;"></div>
+                        <div class="album-info">
+                            <p>B'day</p>
+                            <p>Lançamento:2006</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>Get Me Bodied</li>
+                                <li>Ring The Alarm</li>
+                                <li>Upgrade U</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-livewembley.webp);;"></div>
+                        <div class="album-info">
+                            <p>Live at Wembley (DVD/CD)</p>
+                            <p>Lançamento:2004</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>Gift From Virgo</li>
+                                <li>Me, Myself And I</li>
+                                <li>My First Time</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-albuns">
+                    <div class="album">
+                        <div class="album-img" style="background-image: url(imagens/album-dangerously.webp);;"></div>
+                        <div class="album-info">
+                            <p></p>
+                            <p>Lançamento:2003</p>
+                            <hr class="hr">
+                            <p>Algumas músicas:</p>
+                            <ul>
+                                <li>'03 Bonnie & Clyde (Jay-Z Featuring Beyoncé)</li>
+                                <li>peechless</li>
+                                <li>Dangerously In Love 2</li>
+                            </ul>
+                            <a href="" style="color: #ff007f;">Clique aqui para conhecer todas as músicas deste
+                                album</a>
+                        </div>
+                    </div>
+                </div>
+
+    </div>
+    </section>
+    </main>
+    <footer class="footer">
+        <p>Pagina criada por Eduarda Maia. Todos os direitos reservados &copy;</p>
+    </footer>
+    </div>
+</body>
+</html>
